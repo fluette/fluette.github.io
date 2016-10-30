@@ -1,0 +1,55 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+nav a, button {
+	min-width: 48 px;
+	min-height: 48 px;
+}
+
+img, embed,
+object, video{
+	max-width: 100%;
+}
+.row {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+body {
+	font-family:'Lato', sans-serif;
+	color: #969696;
+	font-weight: 300;
+
+}
+
+.text-muted{
+	color: #BCBBBB;
+}
+
+.text-thin{
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+@media screen and (min-width: 320px) {
+        .row2 {
+          width: 100%;
+          display: block;
+        }
+      }
+
+
+@media screen and (min-width: 650px) {
+        .row2 {
+          width: 100%;
+          display: block;
+        }
+      }
+
