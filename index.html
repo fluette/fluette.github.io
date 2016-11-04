@@ -4,60 +4,73 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Web Development Portfolio</title>
-    <link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel=stylesheet type="text/css">
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="style.css">
+    <!-- These are the styles, fonts and framework used for the site -->
+    <link href="http://fonts.googleapis.com/css?family=Prociono:400" rel=stylesheet type="text/css">
+    <!-- removing stylesheet type causes my font not to be applied -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
      <div class="container">
-       <div class="row">
-         <div class="col-md-6" style="margin-top:20px">
-           <img class="title-logo" src="logo2.png" alt="Udacity logo">
+       <header class="row">
+       <!-- a margin was added above the logo for aesthetic purposes -->
+         <div class="col-md-6">
+           <img class= "img-responsive" id="title-logo" src="images/logo5.png"alt="Website logo">
          </div>
-         <div class="col-md-6 text-right text-uppercase">
-            <h1 class="text-thin">Florence Coniquet</h1>
-            <h4>Web Developer</h4>
+         <div class="col-md-6 text-right">
+            <h1 class="text-thin">Florence Coniquet-Gondjout</h1>
+            <h4>Web Developer in Training :) </h4>
          </div>
-        </div>
+        </header>
         <div class="row">
            <div class="col-md-12">
                <hr>
            </div>
         </div>
-          <div class="row">
+        <section class="row">
            <div class="col-md-12">
-              <img class="img-responsive" src="html4.jpg" alt="Main Kitty image!">
+              <img class="img-responsive" src="images/html9.jpg" alt="Main Website image!">
            </div>
-        </div>
+        </section>
           <div class="row">
           <div class="col-md-12 text-left text-uppercase">
              <h2>Featured Work</h2>
           </div>
         </div>
+        <!-- row2 div class was subject to media query in css for mobile responsiveness -->
+        <section class="row">
         <div class="row2">
           <div class="col-md-4">
-          <img class="img-responsive" img src="moviews2.jpg" alt="Movie Website Image!">
+          <img class="img-responsive" img src="images/moviews2.jpg" alt="Movie Website Project Icon!">
         <h3>Movie Website</h3>
         <p>This is my first project as part of the Udacity Full-Stack developer program. It's a server side code written in Python to store a list of my favorite movies (Box art imagery and trailer URL included). The data is served to a web page using HTML and CSS allowing visitors to review these movies and watch the trailers</p>
 
-        <p><a href="http://github.com">Link to project</a></p>
+        <p><a href="https://github.com/fluette/Movies">Link to project</a></p>
           </div>
           <div class="row2">
           <div class="col-md-4">
-          <img class="img-responsive" img src="Portfolio1.jpg" alt="Portfolio Website Image!">
+          <img class="img-responsive" img src="images/Portfolio1.jpg" alt="Portfolio Website Project Icon!">
         <h3>Portfolio Website</h3>
-        <p>The portfolio website is my second project, it is actually the page you're currently on! It's a responsive website displaying images and links to my projects. The webpage was built using HTML, CSS and Bootstrap Framework</p>
+        <p>The portfolio website is my second project, it is actually the page you're currently on! It's a responsive website displaying images and links to my projects. The webpage was built using HTML, CSS and Bootstrap Framework, I'm constantly working on it and hoping to improve it as I upgrade my skills!</p>
 
-        <p><a href="http://github.com">Link to project</a></p>
+        <p><a href="https://github.com/fluette/Portfolio">Link to project </a></p>
           </div>
           <div class="row2">
           <div class="col-md-4">
-          <img class="img-responsive" img src="Blog2.jpg" alt="Blog Image!">
+          <img class="img-responsive" img src="images/Blog2.jpg" alt="Blog Project Icon!">
         <h3>Multi-User Blog</h3>
        <p>This is the next step of my nanodegree adventure, I just started this project, hopefully I can share the link soon! It's going to be a blog where users can write posts, like and comment on other people's posts. The Blog will be hosted on Google App Engine</p>
         <p><a href="http://github.com">Link to project</a></p>
-          </div>
-       
+          </div> 
+          </section>
+        <footer class="row">
+            <div class="col-md-12">
+              <p>Let's Connect!</p>
+              <a href="http://www.linkedin.com/in/florenceconiquet/"><img src="images/linkedin2.png"></a>
+              <a href="http://www.twitter.com/fluette/"><img src="images/twit2.png"></a>
+              <a href="http://www.github.com/fluette/"><img src="images/git2.png"></a>
+           </div>
+        </footer>
  </body>
  </html>
 
